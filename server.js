@@ -46,11 +46,11 @@ function startMongo(mongoObj) {
 }
 // console.log(io);
 
-// app.get('/', (req, res) => {
-//     res.json({
-//         "message": "Welcome to chat application."
-//     });
-// });
+app.get('/', (req, res) => {
+    res.json({
+        "message": "Welcome to chat application."
+    });
+});
 // const io = require('socket.io')(server);
 
 // io.on('connection', function (socket) {
